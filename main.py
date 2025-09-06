@@ -107,4 +107,4 @@ if __name__ == "__main__":
         except Exception as e:
             print(f"❌ Failed to add {video_id}: {e}")
     
-    print(f"\n✅ Process completed! Added {len(all_video_ids)} videos to playlist {target_playlist_id}")
+    print(f"\n✅ Process completed! Added {len(all_video_ids)} videos.\nCheck the playlist: {TARGET_PLAYLIST_URL}")
